@@ -9,7 +9,7 @@
 
 from .entropy import get_entropy
 from .words import TOP_ENGLISH_WORDS
-from math import pow, ceil, log
+from math import ceil, log
 
 def random_passphrase_from_wordlist(phrase_length, wordlist):
     """ An extremely entropy efficient passphrase generator.
